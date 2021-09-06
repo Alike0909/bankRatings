@@ -1,0 +1,41 @@
+.home {
+    overflow: scroll;
+}
+
+.header-container-item {
+    width: calc(100% / 4 - 12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-container-item h4 {
+    color: #3F4C67;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header-container-item button {
+    color: #3F4C67;
+}
+
+.ant-select:hover .ant-select-selector {
+    outline: #3F4C67 !important;
+    border-color: #3F4C67 !important;
+}
+
+.ant-select:focus-visible .ant-select-selector {
+    outline: #3F4C67 !important;
+    border-color: #3F4C67 !important;
+}
+
+.ant-select-selector:focus-visible {
+    outline: #3F4C67 !important;
+    border-color: #3F4C67 !important;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    outline: #3F4C67 !important;
+    border-color: #3F4C67 !important;
+}
