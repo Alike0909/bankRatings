@@ -1,5 +1,6 @@
 .home {
     overflow: scroll;
+    max-height: 100vh;
 }
 
 .header-container-item {
@@ -18,6 +19,18 @@
 
 .header-container-item button {
     color: #3F4C67;
+}
+
+.ownerName {
+    position: relative;
+}
+
+.ownerName svg {
+    margin: 3px;
+    right: 0;
+    position: absolute;
+    width: 15px;
+    height: 15px;
 }
 
 .ant-select:hover .ant-select-selector {
